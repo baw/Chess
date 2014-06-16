@@ -20,4 +20,10 @@ describe Piece do
       expect { piece.moves }.to raise_error NotImplementedError
     end
   end
+  
+  describe "#move_directions" do
+    it "will throw a NotImplementedError" do
+      expect { piece.move_directions }.to raise_error NotImplementedError
+    end
+  end
 end

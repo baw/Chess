@@ -8,4 +8,8 @@ class Piece
   def moves
     raise NotImplementedError
   end
+  
+  def move_directions
+    raise NotImplementedError
+  end
 end
